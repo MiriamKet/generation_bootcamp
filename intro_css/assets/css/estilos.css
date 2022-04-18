@@ -1,0 +1,67 @@
+/* Selector universal*/
+/* *{background-color: antiquewhite;
+} */
+
+
+
+/*.cuadro{
+width: 100px;
+height: 100px;
+background-color: bisque;
+border: 1px solid black;
+border-radius:80% ;
+} */
+
+/*Selector important*/
+/*.cuadro{
+width: 100px;
+height: 100px;
+background-color: bisque !important ;
+border: 1px solid black;
+border-radius:80% ;
+} */
+
+
+/*Selector de ID */
+#forma{
+    width: 100px;
+height: 100px;
+background-color: black;
+}
+
+
+.color{
+    
+    background-color: rgb(145, 114, 76);
+    }
+
+    .color{
+    
+        background-color: rgb(145, 76, 126);
+        }
+
+        .color{
+    
+            background-color: rgb(140, 145, 76);
+            }
+
+            .color-texto{
+                color: rgb(129, 35, 35);
+            background-color: bisque;
+            
+            }
+
+            .forma{
+                height:auto ;
+            width: auto;
+            }
+
+            .borde{
+             border:3px solid rosybrown ;
+             text-align: center;
+             border-top: 100px;
+            border-left: 3px solid salmon;
+            } 
+p{
+    font-family:fantasy; 
+}
