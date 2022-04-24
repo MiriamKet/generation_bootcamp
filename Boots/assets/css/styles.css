@@ -1,0 +1,22 @@
+.logo{
+    width: 200px;
+    height: 50px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.container{
+    border: 2px solid white;
+}
+
+
+.d-block w-100 carrusel{
+    max-height: 200px;
+    max-width: 200px;
+}
+
+
