@@ -1,0 +1,37 @@
+form{
+    background-color: green;
+    text-align: center;
+    padding: 30px;
+    margin: 0 auto;
+    width: 300px;
+}
+
+
+
+
+.datos{
+    text-align: left;
+}
+.apartados{
+    color: white;
+    text-align: right;
+    display:inline-block;
+
+ 
+}
+
+.inputs{
+    border-color: red;
+    border-width: 2px;
+    
+    
+}
+ 
+hr{
+    border-style: dotted;
+
+}
+
+button{
+   align-self: left;
+}

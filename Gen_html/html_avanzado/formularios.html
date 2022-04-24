@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+<link rel="stylesheet" href="assets/css/formularios.css">
+
+</head>
+<body>
+<!-- <forms action="" method="post"></forms> -->
+    <form action = method ="post">
+<input type="text" placeholder="Nombre"mileght "6" maxlength="10"> > <!--Input es para escribir texto, datos que se requieren-->
+<input type="text" placeholder="Apellido" size="10"> <!--required se utiliza para pedir un dato obligatorio, si no se llena el campo no se admite -->
+<input type="text" value="mandar">
+<input type="number" min="1" max="10" step="2">
+<input type="date">
+<input type="month">
+<input type="week">
+<input type="datetime-local">
+<input type="time">
+<input type="password">
+<input type="file">
+<input type="range"min="1" max="3">
+<input type="checkbox" value="hola" checked>
+<input type="radio" name="n" value="1">
+<input type="radio"name="n"value ="2">
+<input type="reset" value="limpiar" >
+<input type="email" required>
+<input type="submit" value="mandar"> <!--el boton de submit es para enviar-->
+<input type="color" id="inputColor" value="#ff0000">
+<textarea name="" id="" cols="10" rows="5"></textarea>
+<select name="menu" size="2">
+<option value="1">uno</option>
+<option value="2">dos</option>
+<option value="3"selected >tres</option>
+</select>
+></form>
+
+
+<hr>
+
+<h1>formulario</h1>
+<form class="formulario" id="formularioDatos">
+<div class="nombre">
+<label class="acomodo" for="">Nombre</label>
+<input class="nombre-color" type="text" name="nombre" id="nombre" placeholder="Nombre">
+
+</div>
+<div class="apellido">
+<label for="apellido">Apellido</label>
+    <input type id="apellido" placeholder="Apellido">
+</div>
+<div class="password">
+<label class="acomodo" for="password">contraseña</label>
+<input type="password" id="password" required>
+</div>
+
+<div class="correo">
+    <label class="acomodo" for="correo">correo</label>
+    <input type="email" id="correo"
+</div>
+<div class="enviar">
+    <input class="enviar" type="submit" value="Enviar">
+</div>
+
+</form>
+
+<!--script -->
+<script src="assets/js/main.js"></script>
+
+</body>
+</html>

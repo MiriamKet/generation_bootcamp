@@ -1,0 +1,33 @@
+h1{
+    text-align: center;
+}
+
+
+.formulario{
+    border: 5px solid beige;
+    padding: 10px;
+    background-color: rgb(151, 109, 51);
+    border: radius 10px; 
+    width:300px ;
+    margin: 0 auto;
+}
+
+.nombre-color{
+    background-color: black;
+border: none;
+border: 5px;
+}
+
+.enviar{
+background-color: brown;
+border: none;
+color: azure;
+padding: 5px 20px ;
+border-radius: 5px;
+
+}
+
+.acomodo{
+    display: inline-block ;
+    width: 5px;
+}
