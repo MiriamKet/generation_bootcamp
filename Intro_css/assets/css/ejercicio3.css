@@ -1,0 +1,26 @@
+.h1{
+    font-family: cursive;
+}
+
+.body{
+    background-color: rgb(129, 129, 217);
+}
+
+.comic{
+    color: red;
+}
+
+.origin{
+    color:orange;
+}
+
+
+.num{
+color: orange;
+}
+
+.nombre{
+    color: green;
+    background-color: white;
+}
+

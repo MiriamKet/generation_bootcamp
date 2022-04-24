@@ -1,0 +1,39 @@
+/*. px 
+fuente tamaño del body*/
+
+/*
+1200 px pc 
+750 px tablet
+450 px celular
+
+*/
+
+/* Unidades de medida relativas
+%
+REM tienen que ver con el tamaño de fuente, tamaño de pixeles que tengamos por defecto en nuestro nvegador
+EM  tienen que ver con el tamaño de fuente, utiliza el tamaño de fuente del elemento padre
+*/
+
+/*body{
+    width: 1200 px;
+margin:0 auto
+
+}*/
+
+/*forma{
+    width: 200px;
+height: 100px;
+font-size: 20px;
+}
+
+.color{
+    background-color: brown;
+}
+    p{
+
+        padding: 20px
+        ;
+    border: 2px solid black;
+    margin: 0;
+    }
+*/
