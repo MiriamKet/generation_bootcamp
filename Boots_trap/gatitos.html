@@ -52,18 +52,18 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link" href="#"
+              <a class="nav-link" href="#carouselExampleControls"
                 >Inicio <span class="sr-only">(current)</span></a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Adopta</a>
+              <a class="nav-link" href="#imagenes">Imagenes</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Memes</a>
+              <a class="nav-link" href="#video">Video</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Imagenes</a>
+              <a class="nav-link" href="#Adopta">Adopta</a>
             </li>
           </ul>
         </div>
@@ -84,6 +84,12 @@
 
     <!-- Imagenes principales (slides) -->
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+     <div class="pantalla">
+<div class="cuadro">
+ <h1>Developmichis</h1>
+   <p class="cuadrito">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum consequatur doloremque eligendi praesentium molestias temporibus exercitationem optio ipsum maxime nesciunt, in debitis accusamus voluptatum totam aspernatur eius cupiditate quam quod.</p>
+</div>
+     </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS_Ne0HSJ-9_-VzQE-HNbLnIVO4zkG8dfyKQ&usqp=CAU" class="d-block w-100 img-carrusel" alt="...">
@@ -117,9 +123,9 @@
 
 
 
-<!-- Imagenes sewcundarias (debajo slide) -->
+<!-- Imagenes secundarias (debajo slide) -->
 
-    <div class="imagenes" class="mt-5">
+    <div id="imagenes" class="imagenes" class="mt-5">
       <div class="container">
         <h2>Imagenes</h2>
         <div class="row row-cols-1 row-cols-md-3">
@@ -198,20 +204,17 @@
     <!-- Video -->
     <div id="video" class="bg-dark">
     <div class="container">
-    <div class="row">
-      <div class="col">
-      <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/ce0LPDPV5NE"
+    <div class="row align-items-center">
+      <div class="col-md p-5">
+      <iframe class = "videoIframe" src="https://www.youtube.com/embed/ce0LPDPV5NE"
         title="YouTube video player"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
+        allowfullscreen ></iframe>
     </div>
      <!-- Texto a lado del video -->
-    <div class="col text-white p-4">
+    <div class="col-md text-white p-5">
+      <h2>Ver video antes de adoptar</h2>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo sint
         repellat, delectus eos quos ratione, nisi, eius id consequuntur
@@ -231,7 +234,7 @@
     <div id="Adopta" class="mt-5">
       <div class="container">
         <div class="row ">
-          <div class="col align-items-center">
+          <div class="col-md align-items-center">
             <h2>Adoptame</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -239,11 +242,11 @@
               tenetur animi rem consequatur at ea porro, sit, dicta voluptate.
               Itaque, excepturi quia.
             </p>
-            <button type="button" class="btn btn-info">saber más</button>
+            <button type="button" class="mb-5 btn btn-info">saber más</button>
             </div>
             
             <!--Formulario después del texto-->
-            <div class="col bg-dark text-white p-4 rounded">
+            <div class="col-md bg-dark text-white p-4 rounded">
             <div class="container">
           <div class="row">   
         <form>
@@ -284,6 +287,16 @@
       </div>
     </div>
  
+
+    <!-- Derechos reservados -->
+<footer class="bg-dark text-white text-center mt-5   ">
+  <p class="m-0 p-4">Todos los derechos reservados</p>
+</footer>
+
+
+<!-- scroll -->
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="assets/js/scrollreveal.js"></script>
   </body>
 </html>
 

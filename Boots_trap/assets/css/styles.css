@@ -14,11 +14,39 @@
 }
 
 .img-carrusel{
-    height: calc(100vh-76px);
+    height: calc(100vh - 76px);
     object-fit: cover;
     object-position: center;
     
 }
+
+.pantalla{
+position: absolute;
+z-index: 1;
+width: 100%;
+height: calc(100vh - 76px);
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+width: 50vw;
+
+}
+
+.cuadro{
+background-color: rgb(179, 162, 162);
+padding: 20px;
+color: white;
+border-radius: 10px;
+
+
+}
+
+.cuadrito{
+    text-align: center;
+    align-items: center;
+}
+
 
 .img-cards{
 width: 100%;
