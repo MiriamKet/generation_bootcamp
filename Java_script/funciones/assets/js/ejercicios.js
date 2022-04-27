@@ -1,3 +1,5 @@
+//ejercicio 1
+
 const invertir = (palabra = "") => {
     if(palabra.length <= 1 ){ return console.warn('no ingresaste texto');
 
@@ -12,3 +14,6 @@ if(typeof(palabra) !== 'string')return console.error('el valor ingresado no es u
 
 }
 invertir('hola mundo');
+
+// ejercicio 2
+
