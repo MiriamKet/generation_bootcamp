@@ -1,9 +1,7 @@
 const urlUltimos = "https://api.jikan.moe/v4/seasons/now";
 const ultimosAnimes = document.getElementById("ultimosAnimes");
 
-fetch(urlUltimos)
-  .then((resp) => resp.json())
-  .then((datos) => {
+  fetch(urlUltimos).then((resp) => resp.json()).then((datos) => {
     console.log(datos.data);
     const arregloAnimeUltimos = datos.data.slice(0, 16);
     console.log(arregloAnimeUltimos);
@@ -27,6 +25,8 @@ fetch(urlUltimos)
       </div>`;
       console.log(datosNecesarios);
 
-      ultimosAnimes.innerHTML += template;
+      ultimosAnimes.innerHTML += template
     });
+
+   
   });

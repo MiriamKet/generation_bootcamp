@@ -8,3 +8,7 @@
     text-overflow: ellipsis;
     overflow: hidden;
 }
+
+.favorito{
+    background-color: black;
+}
